@@ -9,3 +9,4 @@ opacus  # For privacy-preserving learning
 argparse  # CLI argument parsing (already part of Python stdlib)
 pandas  # Optional: if handling tabular data (common in datasets like breast cancer)
 seaborn  # Optional: for advanced data visualization
+hyperopt
