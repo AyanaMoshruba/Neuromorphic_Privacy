@@ -25,6 +25,7 @@ def parse_args():
     parser.add_argument('--output_dir', type=str, default='./output', help='Directory to save model and results')
     parser.add_argument('--num_steps', type=int, default=10, help='Number of timesteps for spiking dynamics')
     parser.add_argument('--beta', type=float, default=0.95, help='Decay rate for LIF neurons')
+    parser.add_argument('--data_path', type=str, default='./data', help='Path to download the datasets')
     return parser.parse_args()
 
 
