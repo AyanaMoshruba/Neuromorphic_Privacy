@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ### Training ANN Models and Performing MIA
 
-Run the `train.py` script using the following arguments:
+Run the `train_dpsgd.py` script using the following arguments:
 
 #### Arguments
 - `--dataset`: Dataset to use (`cifar10`, `cifar100`, `mnist`, `fmnist`, `iris`, `breast_cancer`).
