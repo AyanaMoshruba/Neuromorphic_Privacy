@@ -1,11 +1,11 @@
-torch==2.4.1  # Replace with your version
+torch  # Replace with your version
 torchvision  # For image datasets like MNIST, FMNIST, CIFAR10, CIFAR100
-snntorch==0.6.0  # For spiking neural network support
+snntorch  # For spiking neural network support
 numpy  # General numerical operations
 scikit-learn  # For dataset preprocessing, evaluation, SVM
-matplotlib==3.7.1  # For plotting ROC curves
-tqdm==4.66.1  # For progress bars
-opacus==1.3.0  # For privacy-preserving learning
-argparse==1.4.0  # CLI argument parsing (already part of Python stdlib)
-pandas==1.5.3  # Optional: if handling tabular data (common in datasets like breast cancer)
-seaborn==0.12.2  # Optional: for advanced data visualization
+matplotlib  # For plotting ROC curves
+tqdm  # For progress bars
+opacus  # For privacy-preserving learning
+argparse  # CLI argument parsing (already part of Python stdlib)
+pandas  # Optional: if handling tabular data (common in datasets like breast cancer)
+seaborn  # Optional: for advanced data visualization
