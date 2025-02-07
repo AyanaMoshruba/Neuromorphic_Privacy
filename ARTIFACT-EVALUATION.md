@@ -94,6 +94,10 @@ DPSGD significantly reduces MIA success rates for both SNNs and ANNs, validating
   cd MIA/Baseline/SNN
   python train.py --dataset cifar10 --num_epochs 20 --batch_size 128 --data_path ./data --output_dir ./output
   ```
+- **Expected Results**: AUC and ROC curve plots for attack success rates.
+- **Runtime**: ~4 hour
+- **Disk Space**: ~1 GB
+  
 #### Experiment 3: Membership Inference Attack Evaluation (MIA- ANN) (Deeper_Networks)
 - **Steps**:
   ```bash
