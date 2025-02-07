@@ -118,7 +118,7 @@ DPSGD significantly reduces MIA success rates for both SNNs and ANNs, validating
 - **Steps**:
   ```bash
   cd DPSGD/ANN
-  python train.py --dataset cifar10 --num_epochs 50 --epsilon 2.0
+  python train_dpsgd.py --dataset cifar10 --num_epochs 50 --epsilon 2.0
   ```
 - **Expected Results**: Logs showing training accuracy, test accuracy, and privacy budget (epsilon).
 - **Runtime**: ~2 hours
@@ -128,7 +128,7 @@ DPSGD significantly reduces MIA success rates for both SNNs and ANNs, validating
 - **Steps**:
   ```bash
   cd DPSGD/SNN
-  python train.py --dataset cifar10 --num_epochs 50 --epsilon 2.0
+  python train_dpsgd.py --dataset cifar10 --num_epochs 50 --epsilon 2.0
   ```
 - **Expected Results**: Logs showing training accuracy, test accuracy, and privacy budget (epsilon).
 - **Runtime**: ~5 hours
