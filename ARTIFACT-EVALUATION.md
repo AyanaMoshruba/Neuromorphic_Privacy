@@ -101,7 +101,7 @@ DPSGD significantly reduces MIA success rates for both SNNs and ANNs, validating
 #### Experiment 3: Membership Inference Attack Evaluation (MIA- ANN) (Deeper_Networks)
 - **Steps**:
   ```bash
-  cd MIA/Deeper_Networks/ANN
+  cd MIA/Deep_Networks/ANN
   python train_mia.py --dataset cifar10 --num_epochs 20 --model resnet18
   ```
 - **Expected Results**: AUC and ROC curve plots for attack success rates.
@@ -111,7 +111,7 @@ DPSGD significantly reduces MIA success rates for both SNNs and ANNs, validating
 #### Experiment 4: Membership Inference Attack Evaluation (MIA- SNN) (Deeper_Networks)
 - **Steps**:
   ```bash
-  cd MIA/Deeper_Networks/SNN
+  cd MIA/Deep_Networks/SNN
   python train_mia.py --dataset cifar10 --arch gsresnet --num_steps 50 --num_epochs 70 --batch_size 128 --lr 0.0268
   ```
 - **Expected Results**: AUC and ROC curve plots for attack success rates.
